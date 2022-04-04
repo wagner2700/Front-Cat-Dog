@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+
+}
+h1 ,h2 p {
+  color: #3C2313;
+}
+.faixa-amarela{
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+  padding: 0 30px;
+
+}
+
+.faixa-cinza{
+  display: flex;
+  background-color:  #222222;
+  display: none;
+  color: white;
+  justify-content: space-around;
+
+}
+
+.menu-desktop {
+  display: none;
+
+  
+}
+.menu-desktop li {
+  background-image: url(../CSS/img/pawprint4.svg);
+  background-repeat: no-repeat;
+  padding-left: 16px;
+  background-position: 0 2px;
+   
+}
+.banner{
+  background-image: url(./img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 440px;
+  position: relative;
+  background-size: cover;
+}
+.content-banner{
+  text-align: center;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-banner h1{
+  padding: 10px 5px;
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  
+}
+.content-banner h2{
+  display: none;
+}
+
+
+.content-banner a{
+  display: block;
+  color: white;
+  width: 140px;
+  background-color: #F0A83E;
+  padding: 15px 17px;
+  border-radius: 5px;
+  margin-top: 40px;
+  
+
+}
+.products-destaq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.products-destaq img{
+  width: 100px;
+  align-items: center;
+  padding-top: 25px;
+
+}
+.cat-products-destaks{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #666666;
+  margin-top: 30px;
+}
+
+.products-destaq h2{
+  font-size:30px;
+  text-align: center;
+  color:#3C2313 ;
+}
+
+.cards-products{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+
+}
+
+.cards-products h3 , .cards-products h4{
+  text-align: center;
+  padding-top:5px ;
+  padding-bottom: 5px;
+}
+
+.cards-products .card{
+  width: 100%;
+  background-color: #FBFAF6
+}
+
+.cards-products .card img{
+  width: 100%;
+  
+}
+.cards-products h3{
+  color: #3C2313;
+
+}
+
+.cards-products h4{
+  color: #F0A83E;
+}
+
+
+
+
+
+@media (min-width : 1024px) {
+      .faixa-cinza{
+        display: flex;
+        justify-content: space-around;
+      }
+      .config-region{
+        display: flex;
+        justify-content: space-around;
+        min-width: 200px
+      }
+      .faixa-amarela{
+        justify-content: space-around;
+        padding: 0;
+      }
+      .menu-mobile{
+        display: none;
+      }
+      .menu-desktop {
+        display: flex;
+        justify-content: space-between;
+        
+        min-width: 400px;
+        color:white
+      }
+      .content-banner{
+        align-items: flex-end;
+        padding-right: 50px;
+      }
+      .content-banner h2{
+        display: block;
+        max-width: 200px;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        
+      }
+      .content-banner a{
+        margin-top: 0;
+      }
+      .cards-products {
+      display: flex;
+        width: 100%;
+        flex-direction:row;
+        gap: 20px;
+      }
+}
+
+.logo{
+  width: 150px;
+}
+
